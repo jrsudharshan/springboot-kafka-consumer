@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+kafka:
+  topic:
+    name: bday-notification-events
+  consumer:
+    bootstrapAddress: 127.0.0.1:9092
+    groupId: bday_group_id
+
+
